@@ -24,7 +24,7 @@ async function createWindow() {
       webSecurity: false,
     },
      // 设置无边框窗体
-     frame: false
+    //  frame: false
   })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
